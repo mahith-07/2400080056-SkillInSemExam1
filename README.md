@@ -1,0 +1,29 @@
+<div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h2>Student Form</h2>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter Name"
+          value={data.name}
+          onChange={handleChange}
+        /><br /><br />
+        <input
+          type="number"
+          name="age"
+          placeholder="Enter Age"
+          value={data.age}
+          onChange={handleChange}
+        /><br /><br />
+        <input
+          type="text"
+          name="className"
+          placeholder="Enter Class"
+          value={data.className}
+          onChange={handleChange}
+        /><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+ 
+
